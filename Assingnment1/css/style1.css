@@ -1,6 +1,7 @@
 .container_12{
 	background:black;
 }
+
 header{
 	position: fixed;
 	margin-top:0;
@@ -44,15 +45,16 @@ aside ul{
 	margin-right:0;
 	font-size: 3px;
 }
+
 aside li{
 	margin: 0;
 	padding-right: 0.2em;
 }
 
 .button{
-	color:lightgrey;
+	color:grey;
 	padding:4px;
-	background:darkblue;
+	background:skyblue;
 }
 
 a:hover{
@@ -74,7 +76,8 @@ a:hover{
 	background:black;
 	color:grey;
 	font-size: 32px;
-	font-family: italic;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 5px;
 	margin-top: 50px;
 	margin-left: 20px;
 }
@@ -86,11 +89,16 @@ a:hover{
 .quote{
 	float:left;
 	height:160px;
-	width:600px;
+	width:560px;
 	margin-right: 0;
 	font-size: 25px;
 	color: lightgrey;
-	background:url(../img/motivation-motivational-quotes-poster-wallpaper14.jpg);
+	background:url(../img/dayquotes.gif);
+}
+
+.quote p{
+	margin-top: 160px;
+	margin-left: 170px;
 }
 
 blockquote p:first-child:before{
@@ -118,11 +126,7 @@ section h4,h2{
 	text-decoration: underline;
 }
 
-section p{
-	color:white;
-}
-
-section a{
+section p,a{
 	color:white;
 }
 
@@ -136,6 +140,64 @@ h2{
 	margin-top: 15px;
 }
 
+.successblueprint h2{
+	color: blue;
+	font-size: 25px;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.successblueprint h3{
+	margin-top: 25px;
+	text-align: center;
+}
+
+.successblueprint h6{
+	text-align: left;
+	color: grey;
+	text-decoration:underline;
+	margin-bottom: 0px;
+}
+
+.successblueprint aside{
+	color: white;
+	text-align: right;
+	font-size: 15px;
+	margin-left: 0;
+}
+
+.successblueprint aside:after{
+	content: '...)';
+}
+
+.successblueprint aside:before{
+	content: '(';
+}
+
+.successblueprint p{
+	float: right;
+	padding-right: 10px;
+}
+
+.nick p:before{
+	padding-right: 20px;
+	float: left;
+	content:url(../img/nick.jpg);
+}
+
+.nando p:before{
+	padding-right: 20px;
+	float: left;
+	content:url(../img/nando.jpg);
+}
+
+.cox p:before{
+	padding-right: 20px;
+	float: left;
+	content:url(../img/cox.jpg);
+}
+
 .foot{
 	color:black;
 	background:grey;
@@ -146,15 +208,31 @@ h2{
 
 .foot h6{
 	font-size: 11px;
-	float: left;
+	float: right;
 	align:auto;
 	margin-top: 20px;
-	margin-left: 80px;
+	margin-right: 0;
+	text-align: right;
+}
+
+.social{
+	float:left;
+	margin-left: -270px;
+	margin-top: 20px;
+}
+
+
+.social ul{
+	text-align: left;
+	float: left;
+	margin-left: -80px;
 }
 
 .foot ul{
 	float: right;
-	margin-top: 15px;
+	margin-right: 0px;
+	margin-top: 0px;
+	text-align: right;
 }
 
 .foot li{
