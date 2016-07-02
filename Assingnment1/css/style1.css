@@ -1,7 +1,8 @@
+/* container */
 .container_12{
 	background:black;
 }
-
+/* header */
 header{
 	position: fixed;
 	margin-top:0;
@@ -28,18 +29,23 @@ header li{
 	display: inline;
 	margin: 10px;
 }
-
+/* navigation */
 nav ul{
  	margin-top: 70px;
  	margin-left: 200px;
 }
-
+/* anchor */
 a{
 	font-size: 13px;
 	color: black;
 	text-decoration: none;
 }
-	
+
+a:hover{
+	color:white;
+	font-size: 15px;
+}
+/* aside */	
 aside ul{
 	margin-top: 70px;
 	margin-right:0;
@@ -50,25 +56,19 @@ aside li{
 	margin: 0;
 	padding-right: 0.2em;
 }
-
+/* button */
 .button{
 	color:grey;
 	padding:4px;
 	background:skyblue;
 }
-
-a:hover{
-	color:white;
-	font-size: 15px;
-}
-
+/* banner/hero */
 .banner{
 	margin:0;
 	width: 960px;
 	height: 563px;
-		}
-
-
+}
+/* quote of day */
 .text{
 	text-decoration: none;
 	text-align: center;
@@ -76,7 +76,7 @@ a:hover{
 	background:black;
 	color:grey;
 	font-size: 32px;
-	font-family: 'Lobster', cursive;
+	font-family: 'Lobster', cursive;/* google fonts */
 	letter-spacing: 5px;
 	margin-top: 50px;
 	margin-left: 20px;
@@ -93,7 +93,7 @@ a:hover{
 	margin-right: 0;
 	font-size: 25px;
 	color: lightgrey;
-	background:url(../img/dayquotes.gif);
+	background:url(../img/dayquotes.gif);/* background image */
 }
 
 .quote p{
@@ -113,7 +113,7 @@ blockquote{
 	margin-left: 10px;
 	font-family: inconsolata;
 }
-
+/* articles */
 .recentSection h2{
 	color: grey;
 	margin-top: 10px;
@@ -197,7 +197,7 @@ h2{
 	float: left;
 	content:url(../img/cox.jpg);
 }
-
+/* footer */
 .foot{
 	color:black;
 	background:grey;
@@ -206,15 +206,13 @@ h2{
 	border-color: black;
 	}
 
-.foot h6{
-	font-size: 11px;
-	float: right;
-	align:auto;
-	margin-top: 20px;
-	margin-right: 0;
-	text-align: right;
+.foot li{
+	display: inline;
+	margin:3px;
+	font-size: 7px;
 }
 
+/* social */
 .social{
 	float:left;
 	margin-left: -270px;
@@ -227,7 +225,15 @@ h2{
 	float: left;
 	margin-left: -80px;
 }
-
+/* footer list */
+.foot h6{
+	font-size: 11px;
+	float: right;
+	align:auto;
+	margin-top: 20px;
+	margin-right: 0;
+	text-align: right;
+}
 .foot ul{
 	float: right;
 	margin-right: 0px;
@@ -235,8 +241,25 @@ h2{
 	text-align: right;
 }
 
-.foot li{
-	display: inline;
-	margin:3px;
-	font-size: 7px;
+/* linkedPage2 */
+.story{
+	margin-top: 120px;
+}
+/* headings linkedPage */
+.story h2{
+	color: blue;
+	float: left;
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+.story h3{
+	color: grey;
+	float: left;
+	font-size: 20px;
+	text-align: left;
+	margin-left: -110px;
+	margin-top: 30px;
 }
