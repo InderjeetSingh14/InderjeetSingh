@@ -260,6 +260,15 @@ h2{
 	float: left;
 	font-size: 20px;
 	text-align: left;
-	margin-left: -110px;
+	margin-left: -100px;
 	margin-top: 30px;
+}
+/* marquee linkedPage */
+marquee{
+	background-color: lightgrey;
+	margin:10px 10px;
+	float: right;
+	color:black;
+	margin-top: 0;
+	width:300px;
 }
